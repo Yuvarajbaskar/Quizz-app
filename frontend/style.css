@@ -1,0 +1,47 @@
+body {
+  font-family: sans-serif;
+  padding: 20px;
+  background: linear-gradient(to bottom right, #e0c3fc, #8ec5fc); /* light purple to lavender gradient */
+  min-height: 100vh;
+}
+
+h1 {
+  color: #4a148c; /* deep purple */
+  text-align: center;
+}
+
+.question {
+  background-color: #fff;
+  border-left: 5px solid #7e57c2; /* soft purple */
+  padding: 15px;
+  margin-bottom: 20px;
+  box-shadow: 0 2px 4px rgba(0,0,0,0.1);
+  border-radius: 8px;
+}
+
+label {
+  display: block;
+  margin: 5px 0;
+}
+
+button {
+  background-color: #ab47bc; /* purple */
+  color: white;
+  border: none;
+  padding: 10px 20px;
+  font-size: 16px;
+  margin-top: 15px;
+  cursor: pointer;
+  border-radius: 5px;
+}
+
+button:hover {
+  background-color: #9c27b0; /* darker on hover */
+}
+
+#score {
+  font-weight: bold;
+  font-size: 18px;
+  margin-top: 20px;
+  color: #6a1b9a; /* deep purple */
+}
